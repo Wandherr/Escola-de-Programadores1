@@ -18,18 +18,20 @@
 
             <div class="cabecalho-link">
                 <li>
-                    <a href="#">Sobre Mim</a>
+                    <a data-abre-modal="#modal-exemplo-1">Sobre Mim</a>
                 </li>
 
                 <li>
-                    <a href="#">Curriculo</a>
+                    <a data-abre-modal="#modal-exemplo-2">Curriculo</a>
                 </li>
 
                 <li>
-                    <a href="#">Skills</a>
+                    <a data-abre-modal="#modal-exemplo-3">Skills</a>
                 </li>
-                <button>Meu Contato</button>
 
+                <a href="https://bit.ly/46YbJp2" target="_blank"><button class="bt">Meu Contato</button></a>
+                              
+                
             </div><!--cabeçalho-link-->
         </header>
 
@@ -43,12 +45,82 @@
                         <a href="https://bit.ly/3QyGdIx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://bit.ly/3sbTg9y" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://bit.ly/3QhZywa" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-telegram"></i></a>  
+                        <a href="https://bit.ly/47o0rKw" target="_blank"><i class="fa-brands fa-telegram"></i></a>  
                     </div><!--redes-social-->
-                <button class="btn">Sobre Mim</button>
+                <button class="bt">E-Mail</button>
+
+                
+
             </div><!--text-->
+
+        
+
         </div><!--container-text-->
-    </div><!--background-->
+
+        
+        
+        <div id="modal-exemplo-1" class="modal">
+            <header>
+                <h2>Sobre Mim</h2>
+                <span class="fechar-modal">X</span>
+            </header>
+           
+            <div class="corpo-modal">
+                <p> 1 - Lorem ipsum dolor sit amet</p>
+            </div>
+            <footer>
+                <button class="fechar-modal">ok</button>
+            </footer>      
+        
+        </div><!--Modal Sobre Mim-->
     
+        <div id="modal-exemplo-2" class="modal">
+            <header>
+                <h2>Curriculo</h2>
+                <span class="fechar-modal">X</span>
+            </header>
+           
+            <div class="corpo-modal">
+                <p> Olá, seja bem vindo ao meu curriculo.<br>
+                Aqui está algumas informações basicas, por favor<br>
+                click no link abaixo e veja o Curriculo completo.<br>
+                <p> Olá, seja bem vindo ao meu curriculo.<br>
+                    Aqui está algumas informações basicas, por favor<br>
+                    click no link abaixo e veja o Curriculo completo.<br>
+                
+                </p>
+                <a href="https://drive.google.com/file/d/1HOM_n7gZRqLu9CknhkNqFX0CeAxtZthb/view?usp=drive_linkF" target="_blank"><button class="bt">Curriculo</button></a>
+
+        
+                                        
+            </div>
+
+            <footer>
+                <button class="fechar-modal">ok</button>
+            </footer>      
+        
+        </div><!--Modal Sobre Mim-->
+    
+        <div id="modal-exemplo-3" class="modal">
+            <header>
+                <h2>Skills</h2>
+                <span class="fechar-modal">X</span>
+            </header>
+           
+            <div class="corpo-modal">
+                <p> 3 - Lorem ipsum dolor sit amet</p>
+            </div>
+            <footer>
+                <button class="fechar-modal">ok</button>
+            </footer>      
+        
+        </div><!--Modal Sobre Mim-->
+    
+        <div id="mascara"></div>
+
+      
+    </div><!--background-->
+    <script src="script.js" defer></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
