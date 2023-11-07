@@ -30,11 +30,18 @@ header{
     padding-top: 1rem;
 }
 
+.logo {
+    transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {    
+    transform: scale(1.1);
+    }
 
 .cabecalho-link{
     display: flex;
     gap: 3rem;
-    font-weight: 300;
+    font-weight: bolder 300;
     cursor: pointer;   
 }
 
@@ -46,6 +53,7 @@ header{
 .cabecalho-link :hover{
     color: #2ecc71;
     transition: 0.3s all;
+    transform: scale(1.1);
 }
 
 .bt{
@@ -56,7 +64,8 @@ header{
     border-radius: 15px;
     font-size: 12px;
     width: 150px;
-    cursor: pointer;    
+    cursor: pointer;
+    font-weight: bolder;    
 }
 
 
@@ -111,7 +120,7 @@ header{
 
 
 .btn{
-    margin-top: 15px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
