@@ -31,6 +31,7 @@ header{
 }
 
 .logo {
+    size-adjust: 100%;
     transition: all 0.3s ease-in-out;
 }
 
@@ -124,11 +125,6 @@ header{
     font-weight: bold;
 }
 
-@media screen and (max-width:600px){
-    .cabecalho-link{
-        display: none;
-    }
-}
 
 .modal {
     position: fixed;
@@ -195,4 +191,53 @@ span.fechar-modal {
 .modal.visivel~#mascara {
     opacity: 0.1;
     pointer-events: initial;
+}
+
+@media screen and (max-width:600px){
+    .cabecalho-link {
+        display:flex table-column ;
+        gap: 1rem;        
+    }
+
+    .cabecalho-link a{
+        font-size: 13px;
+    }
+
+    .bt{
+        width: 100px;   
+    }
+
+    .background{
+        background-position:right;
+    }
+
+    .container-text{
+        padding: 150px 0 0 20px;
+    }
+
+    .text h2{
+        font-size: 18px;
+    }
+    
+    
+    .text h1{
+        color: #fff;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    
+    .text h3{
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .modal {
+        z-index: 10;
+        width:80%;
+        height: auto;
+        left: 6%;
+        right: -10%;
+        top: 50vh;
+        font-size: 14px;
+    }
 }
