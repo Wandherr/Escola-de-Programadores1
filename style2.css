@@ -35,8 +35,8 @@ header{
 }
 
 .logo:hover {    
-    transform: scale(1.1);
-    }
+    transform: scale(1.1); 
+}
 
 .cabecalho-link{
     display: flex;
@@ -47,7 +47,7 @@ header{
 
 .cabecalho-link a{
     color: #fff;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .cabecalho-link :hover{
@@ -61,9 +61,9 @@ header{
     background: transparent;
     border: solid 1px #2ecc71;
     padding:  5px;
-    border-radius: 15px;
-    font-size: 12px;
-    width: 150px;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 200px;
     cursor: pointer;
     font-weight: bolder;    
 }
@@ -81,24 +81,24 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem 2.5rem;
+    padding: 4rem 2.5rem;
     flex-wrap: wrap;
 }
 
 .text h2{
     color: #fff;
-    font-size: 20px;
+    font-size: 45px;
 }
-
 
 .text h1{
     color: #fff;
     margin-top: 15px;
+    font-size: 70px;
 }
 
 .text h3{
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .text span{
@@ -114,7 +114,7 @@ header{
 
 .redes-social{
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .redes-social a{
@@ -136,8 +136,8 @@ header{
 
 
 .img_perfil {
-    width: 500px;
-    height: 500px;
+    width: 750px;
+    height: 750px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -178,6 +178,7 @@ header{
 
 .modal>.corpo-modal {
     padding: 1em 0;
+    font-size: 25px;
 }
 
 .modal>footer {
@@ -218,9 +219,9 @@ span.fechar-modal {
     pointer-events: initial;
 }
 
-.fa-brands {
-    width: 40px;
-    height: 40px;
+
+.icon_projetos {
+    font-size: 220px;
 }
 
 @media screen and (max-width:1124px) {
