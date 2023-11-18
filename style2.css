@@ -136,8 +136,12 @@ header{
 
 
 .img_perfil {
-    width: 750px;
-    height: 750px;
+    width: 650px;
+    height: 650px;
+}
+
+.f_perfil :hover {
+    transform: scale(1.1);    
     transition: all 0.3s ease-in-out;
 }
 
@@ -222,6 +226,10 @@ span.fechar-modal {
 
 .icon_projetos {
     font-size: 220px;
+}
+.icon_projetos :hover {
+    transform: scale(1.1);    
+    transition: all 0.3s ease-in-out;
 }
 
 @media screen and (max-width:1124px) {
@@ -380,7 +388,7 @@ span.fechar-modal {
     }
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:430px) {
 
     .container-text{
         flex-direction: column-reverse;
@@ -390,24 +398,95 @@ span.fechar-modal {
     }
 
     .text h2{
-        font-size: 16px;
+        font-size: 20px;
     }
     
     
     .text h1{
         color: #fff;
-        font-size: 18px;
+        font-size: 27px;
         margin-top: 15px;
     }
     
     .text h3{
-        font-size: 13px;
+        font-size: 16px;
         margin-top: 15px;
         text-align: center;
     }
 
+    .redes-social {
+        font-size: 27px;
+    }
+
     .redes-social a{
-        padding: 5px;
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    .bt {
+        font-size: 15px;
+        padding: 8px;
+        margin-top: 10px;
+        width: 120px;
+        height: flex;
+        margin-right: 5px;
+    }
+
+    .modal>.corpo-modal {
+        padding: 1em 0;
+        font-size: 15px;
+    }
+
+    .icon_projetos {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .text h1{
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    
+    .text h3{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    
+    .container-text{
+        padding-top: 1rem;
+    }
+
+    .text h2{
+        font-size: 17px;
+    }
+
+    .text h1{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    
+    .text h3{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .img_perfil {
+        width: 170px;
+        height: 170px;
+    }
+
+    .redes-social {
+        margin-top: 5px;
+    }
+
+    .bt{
+        width: 110px;
+        font-size: 12px;
         margin-top: 5px;
     }
 
