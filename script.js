@@ -23,5 +23,5 @@ const mascaraE1 = document.querySelector('#mascara');
 mascaraE1.addEventListener('click', fechaModalAberto);
 
 function fechaModalAberto() {
-  document.querySelector('modal.visivel').classList.remove('visivel');
+  document.querySelector('.modal.visivel').classList.remove('visivel');
 }
