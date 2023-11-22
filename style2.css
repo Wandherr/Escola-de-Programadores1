@@ -266,6 +266,62 @@ span.fechar-modal {
 }
 
 
+@media screen and (max-width:1615px) {
+        
+    .text h2{
+        font-size: 35px;
+    }
+    
+    .text h1{
+        font-size: 50px;
+    }
+    
+    .text h3{
+        font-size: 20px;
+    }
+    
+    
+    .redes-social{
+        font-size: 50px;
+        
+    }
+            
+}
+
+@media screen and (max-width:1440px) {
+    .img_perfil {
+        width: 525px;
+        height: 525px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .text h2{
+        font-size: 27px;
+    }
+    
+    .text h1{
+        font-size: 30px;
+    }
+    
+    .text h3{
+        font-size: 17px;
+    }
+    
+    
+    .redes-social{
+        font-size: 30px;
+        
+    }
+    
+    .img_perfil {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+
+
 
 @media screen and (max-width:1124px) {
     .text h2{
@@ -311,7 +367,7 @@ span.fechar-modal {
     }
 }
 
-@media screen and (max-width:970px) {
+@media screen and (max-width:978px) {
     .container-text{
         flex-direction: column-reverse;
         justify-content: center;
@@ -336,8 +392,26 @@ span.fechar-modal {
     }
     
     .img_perfil{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
+    }
+
+    .redes-social {
+        font-size: 25px;
+    }
+
+    .redes-social a{
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    .bt {
+        font-size: 15px;
+        padding: 8px;
+        margin-top: 10px;
+        width: 120px;
+        height: flex;
+        margin-right: 5px;
     }
 }
 
@@ -366,11 +440,6 @@ span.fechar-modal {
         color: #fff;
         font-size: 14px;
     }
-    
-    .img_perfil{
-        width: 400px;
-        height: 400px;
-    }
 }
 
 
@@ -389,10 +458,6 @@ span.fechar-modal {
 
     .cabecalho-link a{
         font-size: 13px;
-    }
-
-    .bt{
-        width: 100px;   
     }
 
     .background{
@@ -498,7 +563,13 @@ span.fechar-modal {
         height: 80px;
         border-radius: 20px 20px 20px 20px;
     }
-    
+    .coluna{
+        width: 50%;
+        height: 100%;
+    }
+    .card{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 390px) {
