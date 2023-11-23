@@ -283,8 +283,22 @@ span.fechar-modal {
     
     .redes-social{
         font-size: 50px;
-        
     }
+
+    .modal>.corpo-modal {
+        font-size: 25px;
+    }
+
+    .icon_skills {
+        font-size: 70px;
+    }
+
+    .b_shadown {
+        width: 200px;
+        height: 200px;
+        border-radius: 45px 45px 45px 45px;
+    }
+    
             
 }
 
@@ -292,6 +306,11 @@ span.fechar-modal {
     .img_perfil {
         width: 525px;
         height: 525px;
+    }
+    .b_shadown {
+        width: 170px;
+        height: 170px;
+        border-radius: 45px 45px 45px 45px;
     }
 }
 
@@ -318,25 +337,28 @@ span.fechar-modal {
         width: 450px;
         height: 450px;
     }
+    .b_shadown {
+        width: 160px;
+        height: 160px;
+        border-radius: 45px 45px 45px 45px;
+    }
 }
 
 
 
 
-@media screen and (max-width:1124px) {
+@media screen and (max-width:1127px) {
     .text h2{
         font-size: 16px;
     }
     
     
     .text h1{
-        color: #fff;
         font-size: 22px;
         margin-top: 10px;
     }
     
     .text h3{
-        color: #fff;
         font-size: 14px;
         padding-right: 1%;
     }
@@ -346,12 +368,12 @@ span.fechar-modal {
         height: 400px;
     }
     .icon_skills {
-        font-size: 30px;
+        font-size: 70px;
     }
 
     .b_shadown {
-        width: 120px;
-        height: 120px;
+        width: 138px;
+        height: 138px;
         border-radius: 30px 30px 30px 30px;
     }
 
@@ -381,13 +403,10 @@ span.fechar-modal {
     
     
     .text h1{
-        color: #fff;
         font-size: 25px;
-        margin-top: 10px;
     }
     
     .text h3{
-        color: #fff;
         font-size: 14px;
     }
     
@@ -413,6 +432,11 @@ span.fechar-modal {
         height: flex;
         margin-right: 5px;
     }
+    .b_shadown {
+        width: 100px;
+        height: 100px;
+        border-radius: 25px 25px 25px 25px;
+    }
 }
 
 
@@ -431,19 +455,38 @@ span.fechar-modal {
     
     
     .text h1{
-        color: #fff;
         font-size: 25px;
-        margin-top: 10px;
     }
     
     .text h3{
-        color: #fff;
         font-size: 14px;
+    }
+    .modal>.corpo-modal {
+        padding: 1em 0;
+        font-size: 15px;
+    }
+    .b_shadown {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:746px) {
+    .modal>.corpo-modal {
+        padding: 1em 0;
+        font-size: 15px;
+    }
+    .b_shadown {
+        width: 85px;
+        height: 85px;
+        border-radius: 20px 20px 20px 20px;
     }
 }
 
-
-@media screen and (max-width:600px){
+@media screen and (max-width:602px){
 
     .img_logo {
         width: 50px;
@@ -475,17 +518,6 @@ span.fechar-modal {
         font-size: 18px;
     }
     
-    
-    .text h1{
-        color: #fff;
-        font-size: 25px;
-        margin-top: 10px;
-    }
-    
-    .text h3{
-        color: #fff;
-        font-size: 14px;
-    }
 
     .img_perfil {
         width: 250px;
@@ -502,6 +534,15 @@ span.fechar-modal {
         top: 50vh;
         font-size: 14px;
         justify-content: center;
+    }
+    .modal>.corpo-modal {
+        padding: 1em 0;
+        font-size: 15px;
+    }
+    .b_shadown {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px 20px 20px 20px;
     }
 }
 
@@ -520,7 +561,6 @@ span.fechar-modal {
     
     
     .text h1{
-        color: #fff;
         font-size: 27px;
         margin-top: 15px;
     }
@@ -581,6 +621,11 @@ span.fechar-modal {
     .text h3{
         font-size: 14px;
         margin-top: 15px;
+    }
+    .b_shadown {
+        width: 60px;
+        height: 60px;
+        border-radius: 20px 20px 20px 20px;
     }
 
 }
